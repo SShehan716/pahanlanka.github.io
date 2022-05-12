@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pahana Lanka Hotel</title>
+        <meta name="viewporrt" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Banquets</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/entrance.jpg" alt="Entrance Pahana Lanka hotel">
+                <div class="info">
+                    <p><h4>WELCOME TO</h4><br>
+                    <h1>PAHANA LANKA HOTEL</h1><br>
+                    <h4>Come to ypur dream paradise</h4>
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/274314706_480887126775182_4139287479174802549_n.jpg" alt="Entrance Pahana Lanka hotel">
+                <div class="info">
+                    <p><h4>WELCOME TO</h4><br>
+                    <h1>PAHANA LANKA HOTEL</h1><br>
+                    <h4>Come to ypur dream paradise</h4>
+                    </p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/swimming pool.jpg" alt="Entrance Pahana Lanka hotel">
+                <div class="info">
+                    <p><h4>WELCOME TO</h4><br>
+                    <h1>PAHANA LANKA HOTEL</h1><br>
+                    <h4>Come to ypur dream paradise</h4>
+                    </p>
+                </div>
+            </div>
+            <div class="navigation">
+                <i class="fas fa-chevron-left prev-btn"></i>
+                <i class="fas fa-chevron-right next-btn"></i>
+            </div>
+            <div class="navigation-visibility">
+                <div class="slide-icon active"> </div>
+                <div class="slide-icon"> </div>
+                <div class="slide-icon"> </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            const slider =document.querySelector(".slider");
+            const nextbtn = document.querySelector(".next-btn");
+const prevbtn = document.querySelector(".prev-btn");
+const slides = document.querySelectorAll(".slide");
+const slideIcons = document.querySelector(".slide-icon");
+const numberofSlides = slides.length;
+var slideNumber = 0;
+
+nextbtn.addEventListener("click",() =>{
+    slides.forEach((slide)=>{
+        slide.classList.remove("active");
+    });
+    slideIcons.forEach((slideIcon)=>{
+        slideIcon.classList.remove("active");
+    });
+
+    slideNumber++;
+
+    if(slideNumber > (numberofSlides -1)){
+        slideNumber=0;
+    }
+
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+});
+
+prevbtn.addEventListener("click",() => {
+    slides.forEach((slide)=>{
+        slide.classList.remove("active");
+    });
+    slideIcons.forEach((slideIcon)=>{
+        slideIcon.classList.remove("active");
+    });
+
+    slideNumber--;
+
+    if(slideNumber > 0 ){
+        slideNumber=numberofSlides-1;
+    }
+
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+});
+
+var playslider;
+var repeater = () => {
+    playslider = setInterval(function(){
+        slides.forEach((slide)=>{
+            slide.classList.remove("active");
+        });
+        slideIcons.forEach((slideIcon)=>{
+            slideIcon.classList.remove("active");
+        });
+    
+        slideNumber++;
+    
+        if(slideNumber > (numberofSlides -1)){
+            slideNumber=0;
+        }
+    
+        slides[slideNumber].classList.add("active");
+        slideIcons[slideNumber].classList.add("active");
+    },4000);
+}
+repeater();
+
+slider.addEventListener("mouseover",() =>{
+    clearInterval(playslider);
+});
+slider.addEventListener("mouseout",() =>{
+    repeater();
+});
+        </script>
+
+    </body>
+</html>
