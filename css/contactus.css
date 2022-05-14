@@ -12,13 +12,21 @@ body{
 }
 
   header{
-      height: 100vh;
+      height: 95vh;
       overflow: hidden;
   }
 
   section{
     height: 100vh;
     overflow: hidden;
+}
+
+.vUS{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
 .contact-bg{
@@ -79,9 +87,9 @@ body{
     padding: 0 1rem;
 }
 .contact-info{
-    margin: 2rem 0;
+    margin: 1rem 0;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 .contact-info span{
     display: block;
@@ -104,10 +112,15 @@ body{
 }
 .contact-form{
     padding: 2rem 0;
-    border-top: 1px solid #c7c7c7;
 }
 .contact-form form{
     padding-bottom: 1rem;
+}
+.contact-body h3{
+    font-size: 2rem;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+    text-align: center;
 }
 .form-control{
     width: 100%;
@@ -149,6 +162,49 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+
+
+
+.section-seperator .divider {
+    position: relative;
+    border-bottom: 3px solid #996F22;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .section-seperator .divider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #9a732a;
+    left: 50%;
+    margin-left: -15px;
+    top: 50%;
+    background: #fff;
+    margin-top: -15px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .section-seperator .divider:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #996F22;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    background: #996F22;
+    margin-top: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
 @media screen and (min-width: 768px){
     .contact-bg .text{
