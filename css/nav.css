@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-nav {
+.navigator nav {
     position: fixed;
     display: flex;
+    top: 0;
     height: 80px;
     width: 100%;
     background: #996F22;
@@ -13,24 +14,24 @@ nav {
     z-index: 500;
 }
 
-nav .logo {
+.navigator nav .logo {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 
-nav ul {
+.navigator nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin-bottom: 0rem;
 }
 
-nav ul li {
+.navigator nav ul li {
     margin: 0 5px;
 }
 
-nav ul li a {
+.navigator nav ul li a {
     color: #f2f2f2;
     text-decoration: none;
     font-size: 18px;
@@ -41,13 +42,13 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
-nav ul li a.active,
-nav ul li a:hover {
+.navigator nav ul li a.active,
+.navigator nav ul li a:hover {
     background: #000;
     color: #fff;
 }
 
-nav .menu-btn i {
+.navigator nav .menu-btn i {
     color: #fff;
     font-size: 22px;
     cursor: pointer;
@@ -59,13 +60,13 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 1000px) {
-    nav {
+    .navigator nav {
         padding: 0 40px 0 50px;
     }
 }
 
 @media (max-width: 950px) {
-    nav .menu-btn i {
+    .navigator nav .menu-btn i {
         display: block;
     }
 
@@ -73,7 +74,7 @@ input[type="checkbox"] {
         content: "\f00d";
     }
 
-    nav ul {
+    .navigator nav ul {
         position: fixed;
         top: 80px;
         left: -100%;
@@ -90,12 +91,12 @@ input[type="checkbox"] {
         left: 0;
     }
 
-    nav ul li {
+    .navigator nav ul li {
         width: 100%;
         margin: 40px 0;
     }
 
-    nav ul li a {
+    .navigator nav ul li a {
         width: 100%;
         margin-left: -100%;
         display: block;
@@ -107,8 +108,8 @@ input[type="checkbox"] {
         margin-left: 0px;
     }
 
-    nav ul li a.active,
-    nav ul li a:hover {
+    .navigator nav ul li a.active,
+    .navigator nav ul li a:hover {
         background: none;
         color: #000000;
     }
