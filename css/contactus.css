@@ -12,21 +12,28 @@ body{
 }
 
   header{
-      height: 95vh;
+      height:55vh;
       overflow: hidden;
   }
 
   section{
-    height: 100vh;
     overflow: hidden;
 }
 
 .vUS{
+    height: 10vh;
+    padding: 1vh;
+}
+
+.vUS h3{
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin: 2rem 0rem 0rem 0rem;
+}
+
+.vistUS{
+    height: 50vh;
 }
 
 .contact-bg{
@@ -81,15 +88,20 @@ body{
 .contact-bg .text{
     margin: 1.6rem 0;
 }
+
+.contactSection{
+    background-color: rgba(14, 10, 1, 0.9);
+}
 .contact-body{
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 .contact-info{
-    margin: 1rem 0;
+    height: 28vh;
+    margin: 0 0 1rem 0;
     text-align: center;
-    padding: 1rem 0;
+    align-items: center;
 }
 .contact-info span{
     display: block;
@@ -112,15 +124,62 @@ body{
 }
 .contact-form{
     padding: 2rem 0;
+    color: #fff;
 }
 .contact-form form{
-    padding-bottom: 1rem;
+    padding: 1rem;
+    margin: 0 50px 0 50px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+    3px 3px 7px rgba(147, 149, 151, 0.671);
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
 }
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+form label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
 .contact-body h3{
     font-size: 2rem;
     padding: 0.4rem 0;
     letter-spacing: 4px;
     text-align: center;
+    margin-bottom: 18px;
 }
 .form-control{
     width: 100%;
@@ -136,24 +195,27 @@ body{
     box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
 }
 .contact-form form div{
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.6rem;
 }
+
 .send-btn{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
     background: #996F22;
-    border: none;
+    opacity: 0.8;
+    border:  1px solid #4a360f;
     border-radius: 5px;
     padding: 0.7rem 1.5rem;
     cursor: pointer;
     transition: all 0.4s ease;
+    width: 100%;
+    font-weight: bolder;
 }
 .send-btn:hover{
-    opacity: 0.8;
+    opacity: 2;
 }
 .contact-form > div img{
     width: 85%;
@@ -163,12 +225,14 @@ body{
     text-align: center;
 }
 
-
+.map{
+    width: 100%;
+}
 
 .section-seperator .divider {
     position: relative;
     border-bottom: 3px solid #996F22;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 30px;
   }
   
@@ -205,6 +269,43 @@ body{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  
+
+  @media screen and (min-width: 10px){
+    .contact-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vistUS{
+        height: 80vh;
+        overflow: overlay;
+    }
+
+
+}
+
+  @media screen and (min-width: 670px){
+    .contact-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
+
+}
 
 @media screen and (min-width: 768px){
     .contact-bg .text{
@@ -216,6 +317,12 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
+
 }
 
 @media screen and (min-width: 992px){
@@ -227,10 +334,40 @@ body{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
 }
 
 @media screen and (min-width: 1200px){
     .contact-info{
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .contact-info span .fas{
+        font-size: 2rem;
+        padding-bottom: 0.9rem;
+        color: #996F22;
+    }
+    .vistUS{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (min-width: 1800px){
+    .contact-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .contact-info span .fas{
+        font-size: 3rem;
+        padding-bottom: 0.9rem;
+        color: #996F22;
+    }
+    .vistUS{
+        height: 40vh;
+    }
+
 }
