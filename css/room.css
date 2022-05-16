@@ -50,6 +50,11 @@ body{
     background: #996F22;
     border-radius: 50%;
 }
+.card-wrapper{
+    width: 100%;
+    background: #0f0d0a;
+    border-radius: 10px;
+}
 img{
     width: 100%;
     display: block;
@@ -59,7 +64,6 @@ img{
 }
 .img-showcase{
     display: flex;
-    width: 100%;
     transition: all 0.5s ease;
 }
 .img-showcase img{
@@ -90,137 +94,110 @@ img{
     color: #12263a;
     margin: 1rem 0;
 }
-.product-title::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 80px;
-    background: #12263a;
+
+.rooms{
+    margin: 40px 0;
 }
-.product-link{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 0.9rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    background: #256eff;
+.room{
+    margin: 45px 0;
+    background: #0f0d0a;
+    padding-bottom: 25px;
     color: #fff;
-    padding: 0 0.3rem;
-    transition: all 0.5s ease;
 }
-.product-link:hover{
-    opacity: 0.9;
+.room-text{
+    padding: 5px 20px;
 }
-.product-rating{
-    color: #ffc107;
+.room-text h3{
+    font-size: 24px;
 }
-.product-rating span{
-    font-weight: 600;
-    color: #252525;
+.room-text ul{
+    list-style-type: none;
+    margin: 15px 0;
 }
-.product-price{
-    margin: 1rem 0;
-    font-size: 1rem;
-    font-weight: 700;
+.room-text ul li{
+    padding: 7px 0;
 }
-.product-price span{
-    font-weight: 400;
+.room-text ul li i{
+    color: var(--yellow);
+    margin-right: 10px;
 }
-.last-price span{
-    color: #f64749;
-    text-decoration: line-through;
-}
-.new-price span{
-    color: #256eff;
-}
-.product-detail h2{
-    text-transform: capitalize;
-    color: #12263a;
-    padding-bottom: 0.6rem;
-}
-.product-detail p{
-    font-size: 0.9rem;
-    padding: 0.3rem;
+.rate{
     opacity: 0.8;
 }
-.product-detail ul{
-    margin: 1rem 0;
-    font-size: 0.9rem;
+.rate span{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--yellow);
 }
-.product-detail ul li{
-    margin: 0;
-    list-style: none;
-    background: url(shoes_images/checked.png) left center no-repeat;
-    background-size: 18px;
-    padding-left: 1.7rem;
-    margin: 0.4rem 0;
+.room-image{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+.btn{
+    font-size: 16px;
+    text-transform: uppercase;
     font-weight: 600;
-    opacity: 0.9;
-}
-.product-detail ul li span{
-    font-weight: 400;
-}
-.purchase-info{
-    margin: 1.5rem 0;
-}
-.purchase-info input,
-.purchase-info .btn{
-    border: 1.5px solid #ddd;
-    border-radius: 25px;
-    text-align: center;
-    padding: 0.45rem 0.8rem;
-    outline: 0;
-    margin-right: 0.2rem;
-    margin-bottom: 1rem;
-}
-.purchase-info input{
-    width: 60px;
-}
-.purchase-info .btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 140px;
+    display: block;
+    margin: 15px auto;
     cursor: pointer;
-    color: #fff;
+    transition: var(--transition);
 }
-.purchase-info .btn:first-of-type{
-    background: #256eff;
+.btn:hover{
+    opacity: 0.85;
 }
-.purchase-info .btn:last-of-type{
-    background: #f64749;
+@media (min-width: 900px){
+    .rooms-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .room{
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
 }
-.purchase-info .btn:hover{
-    opacity: 0.9;
+@media(min-width: 1370px){
+    .rooms-container{
+        flex-direction: column;
+    }
+    .room{
+        display: flex;
+        padding-bottom: 0;
+        margin: 5px 0;
+    }
+    .room-image{
+        flex: 1;
+    }
+    .room-image img{
+        height: 100%;
+    }
+    .room-text{
+        flex: 1;
+    }
+    .room:nth-child(even){
+        flex-direction: row-reverse;
+    }
 }
-.social-links{
-    display: flex;
-    align-items: center;
-}
-.social-links a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    color: #000;
-    border: 1px solid #000;
-    margin: 0 0.2rem;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 0.8rem;
-    transition: all 0.5s ease;
-}
-.social-links a:hover{
-    background: #000;
-    border-color: transparent;
-    color: #fff;
-}
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 992px){
     .card{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.5rem;
+        width: 50%;
+        height: 100%;
     }
     .card-wrapper{
         height: 100vh;
@@ -231,9 +208,193 @@ img{
     .product-imgs{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
     .product-content{
         padding-top: 0;
     }
 }
+
+
+.container-form{
+    position: relative;
+    left: 30%;
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    display: none;
+  }
+  .container-form .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container-form .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .rooms-num{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .rooms-num:focus,
+  .rooms-num:valid{
+    border-color: #9b59b6;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  }
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   }
+   form .button input:hover{
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+   @media(max-width: 584px){
+   .container-form{
+    max-width: 100%;
+  }
+  .container-form{
+    position: relative;
+    left: 0;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+    @media(max-width: 459px){
+    .container-form .content .category{
+      flex-direction: column;
+    }
+    .container-form{
+        position: relative;
+        left: 0;
+    }
+  }
+  
+  .thank-u{
+      width: 400px;
+      background:#fff;
+      border-radius: 6px;
+      position: relative;
+      left: 50%;
+      top: 150px;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      padding: 0 30px 30px;
+      color: #333;
+      display: none;
+  }
+  .thank-u h2{
+      font-size: 38px;
+      font-weight: 500;
+      margin: 30px 0 10px;
+  }
+  .thank-u button{
+      width: 100%;
+      margin-top: 50px;
+      padding: 10px 0;
+      background: #6fd649;
+      color: #fff;
+      border: 0;
+      outline: none;
+      font-size: 18px;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
