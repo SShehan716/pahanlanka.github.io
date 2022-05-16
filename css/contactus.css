@@ -7,16 +7,16 @@
 	font-family: 'Montserrat', sans-serif;
   } 
 
-body{
+  body{
     line-height: 1.5;
 }
 
-  header{
+header{
       height:55vh;
       overflow: hidden;
   }
 
-  section{
+section{
     overflow: hidden;
 }
 
