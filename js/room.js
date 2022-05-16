@@ -17,3 +17,46 @@ function slideImage(){
 }
 
 window.addEventListener('resize', slideImage);
+
+
+function form1(){
+    var x = document.getElementById("form-container");
+        x.style.display = "block";
+  
+  }
+
+function thankyou(){
+    var x = document.getElementById("thank-u");
+        x.style.display = "block";
+    var y = document.getElementById("form-container");
+        y.style.display = "none";
+  }
+
+  function msg(){
+    var x = document.getElementById("thank-u");
+        x.style.display = "none";
+  }
+
+
+var form = document.getElementById('res-form');
+
+form.addEventListener("submit", e => {
+
+e.preventDefault();
+
+fetch(form.action, {
+
+method: "POST",
+
+body: new FormData(document.getElementById("res-form")),
+
+}).then(
+
+response => response.json()
+
+).then((html) => {
+
+// you can put any JS code here window.open('_blank');
+});
+
+});
