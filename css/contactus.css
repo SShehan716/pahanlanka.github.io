@@ -61,6 +61,27 @@ section{
     padding: 0.4rem 0;
     letter-spacing: 4px;
 }
+
+.dm-btn{
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #996F22;
+    opacity: 1;
+    border:  1px solid #4a360f;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: 30%;
+    font-weight: bolder;
+}
+.dm-btn:hover{
+    background-color: #be7b00;
+}
+
 .line div{
     margin: 0 0.2rem;
 }
@@ -91,6 +112,7 @@ section{
 
 .contactSection{
     background-color: rgba(14, 10, 1, 0.9);
+    padding-top: 80px;
 }
 .contact-body{
     max-width: 1320px;
@@ -215,7 +237,7 @@ textarea:valid~label{
     font-weight: bolder;
 }
 .send-btn:hover{
-    opacity: 2;
+    background-color: #be7b00;
 }
 .contact-form > div img{
     width: 85%;
