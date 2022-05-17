@@ -7,17 +7,18 @@
 	font-family: 'Montserrat', sans-serif;
   } 
 
-body{
+  body{
     line-height: 1.5;
 }
 
-  header{
+header{
       height:55vh;
       overflow: hidden;
   }
 
-  section{
-    height: 100vh;
+section{
+    overflow: hidden;
+    margin-top: 20px;
 }
 
 .vUS{
@@ -36,7 +37,7 @@ body{
     height: 50vh;
 }
 
-.contact-bg{
+.room-bg{
     height: 50vh;
     overflow: visible;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url('../images/hall.jpg');
@@ -51,11 +52,11 @@ body{
     align-items: center;
     margin-top: 80px;
 }
-.contact-bg h3{
+.room-bg h3{
     font-size: 1.3rem;
     font-weight: 400;
 }
-.contact-bg h2{
+.room-bg h2{
     font-size: 3rem;
     text-transform: uppercase;
     padding: 0.4rem 0;
@@ -85,22 +86,161 @@ body{
     font-weight: 300;
     opacity: 0.9;
 }
-.contact-bg .text{
+.room-bg .text{
     margin: 1.6rem 0;
 }
 
 
+
+.section-seperator .divider {
+    position: relative;
+    border-bottom: 3px solid #996F22;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+  
+  .section-seperator .divider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #9a732a;
+    left: 50%;
+    margin-left: -15px;
+    top: 50%;
+    background: #fff;
+    margin-top: -15px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .section-seperator .divider:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #996F22;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    background: #996F22;
+    margin-top: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
   
 
+
+new part
+.card-wrapper{
+    width: 100%;
+    background: #0f0d0a;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+    height: 55vh;
+}
+.img-showcase{
+    display: flex;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+
+
+.room{
+    padding-top: 40px;
+    background: #0f0d0a;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.room-text{
+    padding: 5px 20px;
+}
+.room-text h3{
+    font-size: 24px;
+}
+.room-text ul{
+    list-style-type: none;
+    margin: 15px 0;
+}
+.room-text ul li{
+    padding: 7px 0;
+}
+.room-text ul li i{
+    color: var(--yellow);
+    margin-right: 10px;
+}
+.rate{
+    opacity: 0.8;
+}
+.rate span{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--yellow);
+}
+.room-image{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+.btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 140px;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.btn:hover{
+    opacity: 0.85;
+}
+
   @media screen and (min-width: 10px){
-    .contact-bg .text{
+    .room-bg .text{
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-    }
-    .contact-info{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
     }
     .vistUS{
         height: 80vh;
@@ -110,17 +250,11 @@ body{
 
 }
 
-
-
   @media screen and (min-width: 670px){
-    .contact-bg .text{
+    .room-bg .text{
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-    }
-    .contact-info{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
     .vistUS{
         height: 60vh;
@@ -136,10 +270,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .contact-info{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
     .vistUS{
         height: 60vh;
         overflow: overlay;
@@ -149,13 +279,8 @@ body{
 }
 
 @media screen and (min-width: 992px){
-    .contact-bg .text{
+    .room-bg .text{
         width: 50%;
-    }
-    .contact-form{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
     }
     .vistUS{
         height: 60vh;
@@ -165,15 +290,6 @@ body{
 }
 
 @media screen and (min-width: 1200px){
-    .contact-info{
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .contact-info span .fas{
-        font-size: 2rem;
-        padding-bottom: 0.9rem;
-        color: #996F22;
-    }
     .vistUS{
         height: 40vh;
     }
@@ -181,14 +297,6 @@ body{
 }
 
 @media screen and (min-width: 1800px){
-    .contact-info{
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .contact-info span .fas{
-        font-size: 3rem;
-        padding-bottom: 0.9rem;
-        color: #996F22;
-    }
     .vistUS{
         height: 40vh;
     }

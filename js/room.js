@@ -22,6 +22,7 @@ window.addEventListener('resize', slideImage);
 function form1(){
     var x = document.getElementById("form-container");
         x.style.display = "block";
+        window.location.href = "room.html#rForm";
   
   }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +7,35 @@
 	font-family: 'Montserrat', sans-serif;
   } 
 
-body{
+  body{
     line-height: 1.5;
 }
+
+header{
+      height:55vh;
+      overflow: hidden;
+  }
+
+section{
+    overflow: hidden;
+}
+
+.vUS{
+    height: 10vh;
+    padding: 1vh;
+}
+
+.vUS h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.vistUS{
+    height: 50vh;
+}
+
 .room-bg{
     height: 50vh;
     overflow: visible;
@@ -23,7 +51,10 @@ body{
     align-items: center;
     margin-top: 80px;
 }
-
+.room-bg h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
 .room-bg h2{
     font-size: 3rem;
     text-transform: uppercase;
@@ -50,6 +81,60 @@ body{
     background: #996F22;
     border-radius: 50%;
 }
+.text{
+    font-weight: 300;
+    opacity: 0.9;
+}
+.room-bg .text{
+    margin: 1.6rem 0;
+}
+
+
+
+.section-seperator .divider {
+    position: relative;
+    border-bottom: 3px solid #996F22;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+  
+  .section-seperator .divider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #9a732a;
+    left: 50%;
+    margin-left: -15px;
+    top: 50%;
+    background: #fff;
+    margin-top: -15px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .section-seperator .divider:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #996F22;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    background: #996F22;
+    margin-top: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+
+
+/*new part*/
 .card-wrapper{
     width: 100%;
     background: #0f0d0a;
@@ -61,6 +146,7 @@ img{
 }
 .img-display{
     overflow: hidden;
+    height: 55vh;
 }
 .img-showcase{
     display: flex;
@@ -95,14 +181,10 @@ img{
     margin: 1rem 0;
 }
 
-.rooms{
-    margin: 40px 0;
-}
 .room{
-    margin: 45px 0;
-    background: #0f0d0a;
+    padding-top: 40px;
     padding-bottom: 25px;
-    color: #fff;
+    color: #000;
 }
 .room-text{
     padding: 5px 20px;
@@ -150,6 +232,54 @@ img{
 .btn:hover{
     opacity: 0.85;
 }
+
+
+
+
+
+
+  @media screen and (min-width: 10px){
+    .room-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vistUS{
+        height: 80vh;
+        overflow: overlay;
+    }
+
+
+}
+
+  @media screen and (min-width: 670px){
+    .room-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
+
+}
+
+@media screen and (min-width: 768px){
+    .contact-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
+
+}
+
 @media (min-width: 900px){
     .rooms-container{
         display: flex;
@@ -157,9 +287,27 @@ img{
     }
     .room{
         flex: 0 0 calc(50% - 20px);
-        margin: 10px;
     }
 }
+
+@media screen and (min-width: 992px){
+    .room-bg .text{
+        width: 50%;
+    }
+    .vistUS{
+        height: 60vh;
+        overflow: overlay;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .vistUS{
+        height: 40vh;
+    }
+
+}
+
 @media(min-width: 1370px){
     .rooms-container{
         flex-direction: column;
@@ -167,7 +315,6 @@ img{
     .room{
         display: flex;
         padding-bottom: 0;
-        margin: 5px 0;
     }
     .room-image{
         flex: 1;
@@ -183,37 +330,11 @@ img{
     }
 }
 
-
-
-
-
-
-
-
-
-@media screen and (min-width: 992px){
-    .card{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1.5rem;
-        width: 50%;
-        height: 100%;
+@media screen and (min-width: 1800px){
+    .vistUS{
+        height: 40vh;
     }
-    .card-wrapper{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .product-imgs{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-    }
-    .product-content{
-        padding-top: 0;
-    }
+
 }
 
 
