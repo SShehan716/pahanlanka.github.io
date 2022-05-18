@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/preloader.css">
 
 
 
@@ -23,6 +24,20 @@
 </head>
 
 <body>
+  <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover;
+   background-attachment: fixed;"
+  >
+    <img src="images/Company logoAsset 1 .png" alt="">
+    <ul class="pre-loader">
+      <li>L</li>
+      <li>O</li>
+      <li>A</li>
+      <li>D</li>
+      <li>I</li>
+      <li>N</li>
+      <li>G</li>
+    </ul>
+  </div>
 
   <div class="navigator">
     <nav>
@@ -631,6 +646,14 @@
         </div>
     </div>
   </footer>
+  <script>
+    var loader = document.getElementById("preloader");
+    const myTimeout = setTimeout(time, 3000);
+    function time(){
+
+      loader.style.display ="none";
+    }
+  </script>
 
 </body>
 
