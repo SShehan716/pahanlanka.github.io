@@ -4,14 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pahan Lanka</title>
-    <link rel="stylesheet" type="text/css" href="css/demo.css">
-    <link rel="stylesheet" type="text/css" href="css/slicebox.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/gallery.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
 
@@ -23,38 +22,40 @@
   <body>
 
     
-<header>
-  <div class="navigator">
-    <nav>
-        <div class="logo">
-            Brand
-        </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="banquest.html">Banquets</a></li>
-          <li><a href="room.html">Rooms</a></li>
-          <li><a class="active" href="#">Gallery</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</div>
+        <!-- header -->
+        <header>
 
-  <div class = "room-bg">
-    <h3>Explore Our Experience</h3>
-    <h2>GALLERY</h2>
-    <div class = "line">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <input class="dm-btn" type=button onClick="location.href='#mImages'" value="MORE IMAGES"></input>
-  </div>
+            <div class="navigator">
+                <nav>
+                    <div class="logo">
+                        Brand
+                    </div>
+                    <input type="checkbox" id="click">
+                    <label for="click" class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="banquest.html">Banquets</a></li>
+                        <li><a href="room.html">Rooms</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-</header>  
+            <div class = "contact-bg">
+                <h3>Celebrate Your Event With Us</h3>
+                <h2>Banquets Halls</h2>
+                <div class = "line">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <input class="dm-btn" type=button onClick="location.href='#wHalls'" value="MORE DETAILS"></input>
+              </div>
+        </header>
+        <!-- end of header -->
 
 
 <section class="vistUS">
@@ -105,72 +106,6 @@
 
 <section>
 
-    <div class="container">
-        <div class="wrapper">
-
-            <ul id="sb-slider" class="sb-slider">
-                <li>
-                    <a href="galleryimages.html"><img src="images/1.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/a.png" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/3.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/7.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/5.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/swimming pool.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>View More</h3>
-                    </div>
-                </li>
-                <li>
-                    <a href="galleryimages.html"><img src="images/7.jpg" alt=""></a>
-                    <div class="sb-description">
-                        <h3>Markiter</h3>
-                    </div>
-                </li>
-            </ul>
-
-            <div id="shadow" class="shadow"></div>
-            <div id="nav-arrows" class="nav-arrows">
-                <a href="#">Next</a>
-                <a href="#">Previous</a>
-            </div>
-
-            <div id="nav-dots" class="nav-dots">
-                <span class="nav-dot-current"></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-        </div>
-    </div>
 </section>
 
 
@@ -219,86 +154,3 @@
 
   </body>
 </html>
-
-<script src="jquery.js"></script>
-<script src="js/jquery.slicebox.js"></script>
-
-
-<script type="text/javascript">
-
-    $(function() {
-        var Page = (function() {
-            var $navArrows = $( '#nav-arrows' ).hide(),
-                $navDots = $( '#nav-dots' ).hide(),
-                $nav = $navDots.children( 'span' ),
-                $shadow = $( '#shadow' ).hide(),
-                slicebox = $( '#sb-slider' ).slicebox( {
-                    onReady : function() {
-
-                        $navArrows.show();
-                        $navDots.show();
-                        $shadow.show();
-
-                    },
-
-                    onBeforeChange : function( pos ) {
-
-                        $nav.removeClass( 'nav-dot-current' );
-                        $nav.eq( pos ).addClass( 'nav-dot-current' );
-
-                    },
-                    orientation : 'r',
-                    cuboidsRandom : true,
-                    disperseFactor : 100
-                } ),
-                
-                init = function() {
-
-                    initEvents();
-                    
-                },
-                initEvents = function() {
-
-                    // add navigation events
-                    $navArrows.children( ':first' ).on( 'click', function() {
-
-                        slicebox.next();
-                        return false;
-
-                    } );
-
-                    $navArrows.children( ':last' ).on( 'click', function() {
-                        
-                        slicebox.previous();
-                        return false;
-
-                    } );
-
-                    $nav.each( function( i ) {
-                    
-                        $( this ).on( 'click', function( event ) {
-                            
-                            var $dot = $( this );
-                            
-                            if( !slicebox.isActive() ) {
-
-                                $nav.removeClass( 'nav-dot-current' );
-                                $dot.addClass( 'nav-dot-current' );
-                            
-                            }
-                            
-                            slicebox.jump( i + 1 );
-                            return false;
-                        
-                        } );
-                        
-                    } );
-
-                };
-
-                return {init : init};
-            })();
-            Page.init();
-
-    });
-</script>
