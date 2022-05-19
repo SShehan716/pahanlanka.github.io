@@ -118,7 +118,7 @@ button span {
 
 .mtop {
   margin-top: 40px;
-}
+margin-left: auto;margin-right: auto;width: 90%;align-items: center;justify-content: center;}
 
 .heading {
   text-align: center;
@@ -273,7 +273,7 @@ p {
 }
 
 .wrapper2 .box {
-  /* height: max-content; */background-color: white;box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  min-width: 300px;/* height: max-content; */background-color: white;box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
   padding: 20px;
   transition: 0.5s;
 }
@@ -473,10 +473,10 @@ display: flex;margin: auto;}
 .area .left::after {
   position: absolute;
   top: 0;
-  left: 120px;
+  left: 22px;
   content: '';
-  width: 60%;
-  height: 100%;
+  width: 90%;
+  height: 96%;
   margin: 30px;
   background: #CC8C18;
   z-index: -1;
@@ -860,12 +860,12 @@ display: flex;margin: auto;}
   }
 
 section.facilities {
-  min-height: 1735px;
+  min-height: 1469px;
 }
 
 .wrapper2 .box {
-  min-width: 50%;
-  width: 50%;
+  min-width: 100px;
+  width: 100%;
 }
 
   .wrapper .item {
