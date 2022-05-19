@@ -45,7 +45,7 @@ a {
 
 .home {
   background-image: url("../images/home.png");
-  height: 50vh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,14 @@ button span {
 }
 
 /*------------home------------*/
+
 /*------------about------------*/
+.about{
+  min-height: 65vh;
+}
+.facilities{
+  position: absolute;/* height: 54vh; */min-height: 600px;
+}
 .top {
   margin-top: 80px;
 }
@@ -133,7 +140,7 @@ button span {
 }
 
 .left, .right {
-  width: 50%;
+  width: -webkit-fill-available;
 }
 
 h3 {
@@ -169,8 +176,8 @@ p {
   top: 0;
   left: 0;
   background: #CC8C18;
-  width: 34vw;
-  height: 51vh;
+  width: 32vw;
+  height: 47vh;
   z-index: -1;
   margin: 36px;
 }
@@ -201,19 +208,12 @@ p {
 
 /*------------about------------*/
 /*------------wrapper------------*/
-.wrapper {
-  background-image: url("../images/w.jpg");
-  height: 80vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .wrapper .container {
   max-width: 50%;
   margin: auto;
-}
+/* min-height: 1vh; */}
 
 .wrapper .item {
   background: white;
@@ -224,7 +224,7 @@ p {
 }
 
 .wrapper .heading {
-  text-align: left;
+  /* text-align: left; */
 }
 
 .owl-nav .owl-next,
@@ -264,7 +264,7 @@ p {
 /*------------wrapper------------*/
 /*------------wrapper2------------*/
 .wrapper2 {
-  position: relative;
+  /* min-height: 159vh; */display: flow-root;position: relative;
   text-align: center;
 }
 
@@ -273,7 +273,7 @@ p {
 }
 
 .wrapper2 .box {
-  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  /* height: max-content; */background-color: white;box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
   padding: 20px;
   transition: 0.5s;
 }
@@ -326,9 +326,9 @@ p {
 /*------------wrapper2------------*/
 /*------------room------------*/
 .room {
-  margin-bottom: 50px;
+  margin-top: 60px;margin-bottom: 50px;
   position: relative;
-}
+min-height: 90vh;}
 
 .room.wrapper2::after {
   display: none;
@@ -356,9 +356,9 @@ p {
 /*------------room------------*/
 /*------------timer------------*/
 .timer {
-  position: relative;
+  min-height: 500px;position: relative;
   text-align: center;
-  padding-top: 12%;
+  padding: 120px 20px;
 }
 
 .background::after {
@@ -455,8 +455,8 @@ p {
 /*------------offer------------*/
 /*------------area------------*/
 .area img {
-  margin: 7px 100px 5px -36px;
-}
+  
+display: flex;margin: auto;}
 
 .area ul li {
   display: inline-block;
@@ -473,10 +473,10 @@ p {
 .area .left::after {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 120px;
   content: '';
-  width: 65%;
-  height: 99%;
+  width: 60%;
+  height: 100%;
   margin: 30px;
   background: #CC8C18;
   z-index: -1;
@@ -691,7 +691,7 @@ p {
 /*------------blog------------*/
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:950px) {
 
   /*------------home------------*/
   .blog .grid,
@@ -706,7 +706,7 @@ p {
   }
 
   .home {
-    height: 80vh;
+    /* height: 80vh; */
   }
 
   .home .grid {
@@ -797,7 +797,7 @@ p {
   /*------------customer------------*/
 }
 
-@media only screen and (max-width:512px) {
+@media only screen and (max-width: 950px) {
   .header.sticky {
     height: 10vh;
   }
@@ -828,7 +828,7 @@ p {
   }
 
   .home {
-    height: 140vh;
+    height: 39vh;
   }
 
   .home .grid {
@@ -858,6 +858,15 @@ p {
   .wrapper {
     height: 100vh;
   }
+
+section.facilities {
+  min-height: 1400px;
+}
+
+.wrapper2 .box {
+  min-width: 50%;
+  width: 50%;
+}
 
   .wrapper .item {
     padding: 20px;
