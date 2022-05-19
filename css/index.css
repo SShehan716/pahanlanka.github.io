@@ -45,7 +45,7 @@ a {
 
 .home {
   background-image: url("../images/home.png");
-  height: 100vh;
+  min-height: 65vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ min-height: 90vh;}
 /*------------room------------*/
 /*------------timer------------*/
 .timer {
-  min-height: 500px;position: relative;
+  min-height: 584px;position: relative;
   text-align: center;
   padding: 120px 20px;
 }
@@ -374,7 +374,7 @@ min-height: 90vh;}
 
 .timer.wrapper {
   background-image: url("../images/w2.jpg");
-}
+background-attachment: fixed;background-repeat: no-repeat;background-size: cover;}
 
 .timer.about::after {
   z-index: 1;
@@ -706,7 +706,7 @@ display: flex;margin: auto;}
   }
 
   .home {
-    /* height: 80vh; */
+    min-height: 200px;height: 80vh;
   }
 
   .home .grid {
@@ -860,7 +860,7 @@ display: flex;margin: auto;}
   }
 
 section.facilities {
-  min-height: 1400px;
+  min-height: 1735px;
 }
 
 .wrapper2 .box {
