@@ -15,7 +15,7 @@
 }
 
 .navigator img{
-    height: 80px;
+    max-width: 90px;
 }
 
 .navigator nav .logo {
