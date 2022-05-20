@@ -44,7 +44,6 @@
 /*room part*/
 .card-wrapper{
     width: 100%;
-    background: #0f0d0a;
     border-radius: 10px;
 }
 img{
@@ -55,14 +54,35 @@ img{
     overflow: hidden;
     height: 55vh;
 }
-.img-showcase{
+.img-showcase1{
     display: flex;
     transition: all 0.5s ease;
 }
-.img-showcase img{
+.img-showcase1 img{
     min-width: 100%;
 }
-.img-select{
+.img-showcase2{
+  display: flex;
+  transition: all 0.5s ease;
+}
+.img-showcase2 img{
+  min-width: 100%;
+}
+.img-showcase3{
+  display: flex;
+  transition: all 0.5s ease;
+}
+.img-showcase3 img{
+  min-width: 100%;
+}
+.img-showcase4{
+  display: flex;
+  transition: all 0.5s ease;
+}
+.img-showcase4 img{
+  min-width: 100%;
+}
+.img-select1,.img-select2,.img-select3,.img-select4{
     display: flex;
 }
 .img-item{
@@ -125,6 +145,7 @@ img{
 }
 .btn{
     font-size: 16px;
+    background: #996F22;
     text-transform: uppercase;
     font-weight: 600;
     border: none;
