@@ -118,11 +118,11 @@ font-size: 30px;}
     margin: 80px 0;
 }
 .room{
-    margin: 45px 0;
+    font-weight: 500;margin: 45px 0;
     padding-bottom: 25px;
     background: var(--dark);
     color: #fff;
-}
+font-size: 30px;}
 .room-text{
     padding: 5px 20px;
 }

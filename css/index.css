@@ -45,12 +45,7 @@ a {
 }
 
 .home {
-  background-image: url("../images/home.png");
   min-height: 65vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   margin-top: 80px;
 }
@@ -109,7 +104,7 @@ button span {
 
 /*------------about------------*/
 .about{
-  min-height: 65vh;
+  min-height: 50vh;
 }
 .facilities{
   position: absolute;/* height: 54vh; */min-height: 600px;
@@ -165,7 +160,7 @@ p {
 
 .about {
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .about .right {
@@ -178,10 +173,10 @@ p {
   top: 0;
   left: 0;
   background: #CC8C18;
-  width: 32vw;
-  height: 47vh;
+  width: 35vw;
+  height: 45vh;
   z-index: -1;
-  margin: 36px;
+  margin: 17px;
 }
 
 .about::after {
@@ -475,11 +470,11 @@ display: flex;margin: auto;}
 .area .left::after {
   position: absolute;
   top: 0;
-  left: 22px;
+  left: 15px;
   content: '';
-  width: 90%;
-  height: 96%;
-  margin: 30px;
+  width: 76%;
+  height: 97%;
+  margin: 37px;
   background: #CC8C18;
   z-index: -1;
 }
@@ -708,7 +703,7 @@ display: flex;margin: auto;}
   }
 
   .home {
-    min-height: 280px;height: 80vh;
+    padding: 158px 0px;min-height: 720px;height: 80vh;
   }
 
   .home .grid {

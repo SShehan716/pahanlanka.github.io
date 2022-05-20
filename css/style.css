@@ -41,11 +41,6 @@ section{
 
 .contact-bg{
     min-height: 300px;height: 50vh;
-    overflow: visible;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url('../images/hall.jpg');
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
     color: #fff;
     display: flex;
@@ -201,7 +196,7 @@ section{
         grid-template-columns: repeat(1, 1fr);
     }
     .vistUS{
-        min-height: 190px;height: auto;
+        min-height: 600px;height: auto;
     }
 
 
@@ -218,7 +213,7 @@ section{
         grid-template-columns: repeat(2, 1fr);
     }
     .vistUS{
-        min-height: 206px;/* height: 400px; */
+        min-height: 310px;/* height: 400px; */
     }
 
 
@@ -260,7 +255,7 @@ section{
         color: #996F22;
     }
     .vistUS{
-        height: 40vh;
+        min-height: 200px;height: 40vh;
     }
 
 }

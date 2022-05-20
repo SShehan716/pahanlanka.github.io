@@ -1,9 +1,11 @@
-
+.title h1{
+	font-size: 30px;
+}
 
 .section{
 	width: 100%;
-	min-height: 100vh;
-	background-color: #ddd;
+	min-height: 66vh;
+	background-color: #fff;
 }
 .container{
 	width: 80%;
@@ -12,7 +14,7 @@
 	padding-top: 100px;
 }
 #content1{
-	float: right;
+	font-size: 19px;float: right;
 	width: 55%;
 }
 #image1{
