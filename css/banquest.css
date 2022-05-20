@@ -82,13 +82,13 @@ img{
     align-self: flex-start;
     font-size: 48px;
     color: #252525;
-}
+/* width: 117px; */max-width: 50px;}
 .service-content{
-    padding-left: 20px;
+    width: 250px;padding-left: 20px;
 }
 .service-content h2{
-    opacity: 0.7;
-}
+    text-align: left;opacity: 0.7;
+font-size: 30px;}
 .service-content button{
     margin-left: 0;
     margin-right: 0;
@@ -98,7 +98,7 @@ img{
 @media(min-width: 992px){
     .services-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
     }
     .title h2{
