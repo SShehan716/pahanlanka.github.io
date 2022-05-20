@@ -7,7 +7,7 @@ font-family: 'Montserrat', sans-serif;
 
 ::selection{
   color: #fff;
-  background: #007bff;
+  background: #ffa200;
 }
 .wrapper{
   margin: 100px auto;
@@ -28,15 +28,15 @@ font-family: 'Montserrat', sans-serif;
 min-width: 70px;;;;;;;;;;;;font-size: 18px;
   text-align: center;
   cursor: pointer;
-  color: #007bff;
+  color: #ffa200;
   border-radius: 50px;
-  border: 2px solid #007bff;
+  border: 2px solid #ffa200;
   transition: all 0.3s ease;
 }
 .items span.active,
 .items span:hover{
   color: #fff;
-  background: #007bff;
+  background: #ffa200;
 }
 .gallery{
   display: flex;
@@ -111,7 +111,7 @@ min-width: 70px;;;;;;;;;;;;font-size: 18px;
   margin-left: 5px;
 }
 .details .icon{
-  color: #007bff;
+  color: #ffa200;
   font-style: 22px;
   cursor: pointer;
 }
@@ -121,6 +121,7 @@ min-width: 70px;;;;;;;;;;;;font-size: 18px;
 }
 .image-box img{
   width: 100%;
+  max-height: 75vh;
   border-radius: 0 0 3px 3px;
 }
 .shadow{
