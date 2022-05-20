@@ -200,7 +200,7 @@ section{
         grid-template-columns: repeat(1, 1fr);
     }
     .vistUS{
-        min-height: 130px;height: auto;
+        min-height: 562px;height: auto;
     }
 
 
@@ -217,7 +217,7 @@ section{
         grid-template-columns: repeat(2, 1fr);
     }
     .vistUS{
-        min-height: 160px;/* height: 400px; */
+        min-height: 206px;/* height: 400px; */
     }
 
 
