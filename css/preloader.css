@@ -15,7 +15,16 @@
       width: 20%;
       left: 40%;
       top: 30%;
+      min-width: 20%;
   }
+
+  .image{
+    top: 20%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
   
   ul.pre-loader {
     position: fixed;
@@ -104,7 +113,6 @@
       letter-spacing: 0;
     }
     #preloader img{
-
         left: 38%;
         top: 38%;
     }
