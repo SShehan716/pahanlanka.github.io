@@ -874,3 +874,9 @@ section.facilities {
     height: 170vh;
   }
 }
+
+@media only screen and (max-width:385px) {
+  .timer {
+    min-height: 1000px;
+  }
+}
