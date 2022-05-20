@@ -178,6 +178,9 @@ font-size: 30px;}
     .room:nth-child(even){
         flex-direction: row-reverse;
     }
+    .title h2{
+        font-size: 2rem;
+    }
 }
 @media(min-width: 950px){
     .rooms-container{
@@ -199,6 +202,9 @@ font-size: 30px;}
     }
     .room:nth-child(even){
         flex-direction: row-reverse;
+    }
+    .title h2{
+        font-size: 2rem;
     }
 }
 
@@ -250,6 +256,9 @@ font-size: 30px;}
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
     }
+    .title h2{
+        font-size: 2rem;
+    }
 }
 @media(min-width: 1370px){
     .customers-container{
@@ -265,6 +274,9 @@ font-size: 30px;}
         width: 100px;
         height: 100px;
     }
+    .title h2{
+        font-size: 2rem;
+    }
 }
 
 @media(min-width: 900px){
@@ -272,6 +284,9 @@ font-size: 30px;}
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
+    }
+    .title h2{
+        font-size: 2rem;
     }
 }
 
