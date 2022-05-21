@@ -415,36 +415,36 @@
           <div class="container-form" id="form-container">
               <div class="title">Room Reservation</div>
               <div class="content">
-                <form action="https://sheetdb.io/api/v1/bx60ee2uj3kxr" method="post" id="res-form">
+                <form action="reservation.php" method="POST" id="res-form">
                   <div class="user-details">
                     <div class="input-box">
                       <span class="details">First Name</span>
-                      <input type="text" placeholder="Enter your first name" name="data[First Name]"required>
+                      <input type="text" placeholder="Enter your first name" name="First Name"required>
                     </div>
                     <div class="input-box">
                       <span class="details">Last Name</span>
-                      <input type="text" placeholder="Enter your last name" name="data[Last Name]"required>
+                      <input type="text" placeholder="Enter your last name" name="Last Name"required>
                     </div>
                     <div class="input-box">
                       <span class="details">Email</span>
-                      <input type="text" placeholder="Enter your email" name="data[Email]">
+                      <input type="text" placeholder="Enter your email" name="Email">
                     </div>
                     <div class="input-box">
                       <span class="details">Phone Number</span>
-                      <input type="text" placeholder="Enter your number" name="data[Phone Number]" required>
+                      <input type="text" placeholder="Enter your number" name="Phone Number" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Arrival Date</span>
-                      <input type="date" name="data[Arrival Date]"required>
+                      <input type="date" name="Arrival Date"required>
                     </div>
                     <div class="input-box">
                       <span class="details">Depature Date</span>
-                      <input type="date" name="data[Depature Date]" required>
+                      <input type="date" name="Depature Date" required>
                     </div>
                   </div>
                   <div class="input-box">
                       <span class="details">Number of Rooms</span>
-                      <select name="rooms" class="rooms-num" name="data[No. of Rooms]">
+                      <select class="rooms-num" name="data[No. of Rooms]">
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
