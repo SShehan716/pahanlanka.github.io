@@ -91,14 +91,24 @@ function form1(){
         x.style.display = "none";
   }
 
-  function submitBtn(){
+
+ /* function submitBtn(){
     var x = document.getElementById("thank-u");
     x.style.display = "block";
     var y = document.getElementById("form-container");
     y.style.display = "none";
-  }
+  }*/
 
+var form = document.getElementById('res-form');
 
+form.addEventListener('submit',function(event){
+    event.preventDefault();
+
+    var x = document.getElementById("thank-u");
+    x.style.display = "block";
+    var y = document.getElementById("form-container");
+    y.style.display = "none";
+})
 /*var form = document.getElementById('res-form');
 
 form.addEventListener("submit", e => {
