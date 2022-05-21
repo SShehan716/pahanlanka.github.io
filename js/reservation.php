@@ -8,7 +8,7 @@ $Adate = $_POST['Arrival Date'];
 $Ddate = $_POST['Depature Date'];
 $rooms = $_POST['No. of Rooms'];
 
-$mailheader = "From :".$fname."<""noreply@pahanlanka.com"">\r\n";
+$mailheader = "From :".$fname."<".$email.">\r\n";
 $recipient = "web221solution@gmail.com";
 
 $body = "";
