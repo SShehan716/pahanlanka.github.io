@@ -40,7 +40,8 @@ section{
 }
 
 .contact-bg{
-    min-height: 300px;height: 50vh;
+    min-height: 325px;
+    height: 50vh;
     text-align: center;
     color: #fff;
     display: flex;
@@ -199,6 +200,9 @@ section{
         min-height: 698px;
         height: auto;
     }
+    .vUS h3{
+        font-size: 2rem;
+    }
 
 }
 
@@ -214,6 +218,10 @@ section{
     }
     .vistUS{
         min-height: 310px;/* height: 400px; */
+    }
+
+    .vUS h3{
+        font-size: 2rem;
     }
 
 

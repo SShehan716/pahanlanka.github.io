@@ -19,12 +19,17 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px;
-    width: 140px;
+    width: 170px;
     display: block;
     margin: 15px auto;
     cursor: pointer;
     transition: var(--transition);
+    background: #996F22;
+    color: #fff;
 }
+
+
+
 .btn:hover{
     opacity: 0.85;
 }
@@ -81,15 +86,16 @@ h1, h3, h4, h5, h6{
 .service-icon{
     flex: 30%;
     align-self: flex-start;
-    font-size: 48px;
+    font-size: 40px;
     color: #252525;
 /* width: 117px; */max-width: 50px;}
 .service-content{
     width: 250px;padding-left: 20px;
 }
 .service-content h2{
-    text-align: left;opacity: 0.7;
-font-size: 30px;}
+    text-align: left;
+    opacity: 0.7;
+    font-size: 30px;}
 .service-content button{
     margin-left: 0;
     margin-right: 0;
@@ -123,7 +129,7 @@ font-size: 30px;}
     padding-bottom: 25px;
     background: var(--dark);
     color: #fff;
-font-size: 30px;}
+    font-size: 20px;}
 .room-text{
     padding: 5px 20px;
 }
@@ -278,6 +284,12 @@ font-size: 30px;}
     .title h2{
         font-size: 2rem;
     }
+    .room{
+        font-weight: 500;margin: 45px 0;
+        padding-bottom: 25px;
+        background: var(--dark);
+        color: #fff;
+        font-size: 20px;}
 }
 
 @media(min-width: 900px){

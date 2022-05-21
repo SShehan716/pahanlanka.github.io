@@ -9,7 +9,7 @@
     background: #996F22;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px 0 10px;
+    padding: 0 50px 0 20px;
     flex-wrap: wrap;
     z-index: 900;
 }
@@ -66,7 +66,7 @@ input[type="checkbox"] {
 
 @media (max-width: 1000px) {
     .navigator nav {
-        padding: 0 40px 0 10px;
+        padding: 0px 40px 0 10px;
     }
 }
 
