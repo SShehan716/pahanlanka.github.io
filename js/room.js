@@ -82,7 +82,6 @@ function form1(){
     var x = document.getElementById("form-container");
         x.style.display = "block";
         window.location.href = "room.html#rForm";
-  
   }
 
 
@@ -92,8 +91,15 @@ function form1(){
         x.style.display = "none";
   }
 
+  function submitBtn(){
+    var x = document.getElementById("thank-u");
+    x.style.display = "block";
+    var y = document.getElementById("form-container");
+    y.style.display = "none";
+  }
 
-var form = document.getElementById('res-form');
+
+/*var form = document.getElementById('res-form');
 
 form.addEventListener("submit", e => {
 
@@ -117,4 +123,6 @@ response => response.json()
 // you can put any JS code here window.open('_blank');
 });
 
-});
+});*/
+
+
