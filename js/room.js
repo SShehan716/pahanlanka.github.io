@@ -86,7 +86,7 @@ function form1(){
 
 
 
-  function msg(){
+/*  function msg(){
     var x = document.getElementById("thank-u");
         x.style.display = "none";
   }
@@ -99,7 +99,7 @@ function form1(){
     y.style.display = "none";
   }*/
 
-var form = document.getElementById('res-form');
+/*var form = document.getElementById('res-form');
 
 form.addEventListener('submit',function(event){
     event.preventDefault();
@@ -108,7 +108,7 @@ form.addEventListener('submit',function(event){
     x.style.display = "block";
     var y = document.getElementById("form-container");
     y.style.display = "none";
-})
+})*/
 /*var form = document.getElementById('res-form');
 
 form.addEventListener("submit", e => {

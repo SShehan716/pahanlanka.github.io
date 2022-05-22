@@ -21,7 +21,7 @@
   </head>
   <body>
     <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
-      <div class="image">    <img src="images/PAHAN LANKA logo.png" alt="">    </div>
+      <div class="image">    <img src="images/PAHAN LANKA logo.webp" alt="">    </div>
       <div>
         <ul class="pre-loader">
           <li>L</li>
@@ -43,7 +43,7 @@
     <nav>
         <div class="logo">
           <a href="index.html">
-            <img class="logo" src="images/PAHAN LANKA logo.png" alt="">
+            <img class="logo" src="images/PAHAN LANKA logo.webp" alt="">
           </a>        </div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
@@ -82,22 +82,22 @@ class="contact-bg">
     <div>
       <span><i class = "fas fa-mobile-alt"></i></span>
       <span>Phone No.</span>
-      <span class = "text">+94 779 242 716</span>
+      <span class = "text">+9477 492 5213</span>
     </div>
     <div>
       <span><i class = "fas fa-envelope-open"></i></span>
       <span>E-mail</span>
-      <span class = "text">pahanlanka@company.com</span>
+      <span class = "text">contactus@pahanlanka.com</span>
     </div>
     <div>
       <span><i class = "fas fa-map-marker-alt"></i></span>
       <span>Address</span>
-      <span class = "text">79/C, Mahagammadha, Payagala</span>
+      <span class = "text">Horana Road, Millagashandiya, Panapitiya, Waskaduwa, Kalutara</span>
     </div>
     <div>
       <span><i class = "fas fa-clock"></i></span>
       <span>Opening Hours</span>
-      <span class = "text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+      <span class = "text">Always Open</span>
     </div>
   </div>
 </section>
@@ -126,27 +126,27 @@ class="contact-bg">
         <input type = "submit" class = "send-btn" value = "send message">
       </form> -->
 
-      <form action="">
+      <form action="contactus.php" method="POST">
         <h3>Drop Us A Message</h3>
 
         <div class="input-group">
-          <input type="text" id="first-name" required>
+          <input type="text" id="first" name="first" required>
           <label for="first-name"><i class="fa-solid fa-user"></i>  First Name</label>
         </div>
         <div class="input-group">
-          <input type="text" id="last-name" required>
+          <input type="text" id="last" name="last" required>
           <label for="last-name"><i class="fa-solid fa-user"></i>  Last Name</label>
         </div>
         <div class="input-group">
-          <input type="tel" id="number" required>
+          <input type="tel" id="number" name="number" required>
           <label for="number"><i class="fa-solid fa-phone"></i>  Mobile Number</label>
         </div>
         <div class="input-group">
-          <input type="email" id="email" required>
+          <input type="email" id="email" name="email" required>
           <label for="email"><i class="fa-solid fa-envelope"></i>  E-mail</label>
         </div>
         <div class="input-group">
-          <textarea id="message" rows="10" required></textarea>
+          <textarea id="msg" name="msg" rows="10" required></textarea>
           <label for="message"><i class="fa-solid fa-message"></i>  Your Message</label>
         </div>
         <button class="send-btn" type="submit">Submit  <i class="fa-solid fa-paper-plane"></i></button>
