@@ -52,7 +52,6 @@
 }
 .img-display{
   overflow: hidden;
-  height: 55vh;
 }
 .img-showcase1{
   display: flex;
@@ -176,6 +175,16 @@ min-width: 100%;
   .room-bg .text{
       width: 50%;
   }
+
+  .img-showcase1 img{
+    min-width: 75%;
+    }
+  .img-showcase2 img{
+    min-width: 75%;
+    }
+  .img-showcase3 img{
+     min-width: 75%;
+     }
 
 
 }
@@ -358,33 +367,41 @@ form .user-details .input-box{
 }
 
 .thank-u{
-    width: 400px;
-    background:#fff;
+    padding: 10px;
     border-radius: 6px;
     position: relative;
-    left: 50%;
-    top: 150px;
-    transform: translate(-50%,-50%);
     text-align: center;
-    padding: 0 30px 30px;
-    color: #333;
-    display: none;
+    color: rgb(0, 0, 0);
 }
 .thank-u h2{
     font-size: 38px;
     font-weight: 500;
     margin: 30px 0 10px;
 }
-.thank-u button{
-    width: 100%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background-color: #be7b00;
-    color: #fff;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+
+.sub-btn{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #996F22;
+  opacity: 0.8;
+  border:  1px solid #4a360f;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  width: 100%;
+  font-weight: bolder;
+}
+.sub-btn:hover{
+  background-color: #be7b00;
+}
+
+.alert-success{
+  background-color: #80d353;
+}
+
+.alert-danger{
+  background-color: #d4473d;
 }

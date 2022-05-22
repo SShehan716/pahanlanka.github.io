@@ -81,58 +81,8 @@ window.addEventListener('resize', slideImage4);
 function form1(){
     var x = document.getElementById("form-container");
         x.style.display = "block";
-        window.location.href = "room.html#rForm";
+        window.location.href = "room.php#rForm";
   }
 
-
-
-/*  function msg(){
-    var x = document.getElementById("thank-u");
-        x.style.display = "none";
-  }
-
-
- /* function submitBtn(){
-    var x = document.getElementById("thank-u");
-    x.style.display = "block";
-    var y = document.getElementById("form-container");
-    y.style.display = "none";
-  }*/
-
-/*var form = document.getElementById('res-form');
-
-form.addEventListener('submit',function(event){
-    event.preventDefault();
-
-    var x = document.getElementById("thank-u");
-    x.style.display = "block";
-    var y = document.getElementById("form-container");
-    y.style.display = "none";
-})*/
-/*var form = document.getElementById('res-form');
-
-form.addEventListener("submit", e => {
-
-e.preventDefault();
-
-fetch(form.action, {
-
-method: "POST",
-
-body: new FormData(document.getElementById("res-form")),
-
-}).then(
-
-response => response.json()
-
-).then((html) => {
-    var x = document.getElementById("thank-u");
-    x.style.display = "block";
-    var y = document.getElementById("form-container");
-    y.style.display = "none";
-// you can put any JS code here window.open('_blank');
-});
-
-});*/
 
 

@@ -13,7 +13,7 @@
 </head>
 <body>
   <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
-    <div class="image">    <img src="images/PAHAN LANKA logo.webp" alt="">    </div>
+    <div class="image">    <img src="images/PAHAN LANKA logo.png" alt="">    </div>
     <div>
       <ul class="pre-loader">
         <li>L</li>
@@ -31,19 +31,19 @@
     <div class="navigator">
     <nav>
         <div class="logo">
-          <a href="index.html">
-            <img class="logo" src="images/PAHAN LANKA logo.webp" alt="">
+          <a href="index.php">
+            <img class="logo" src="images/PAHAN LANKA logo.png" alt="">
           </a>        </div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="banquest.html">Banquets</a></li>
-          <li><a href="room.html">Rooms</a></li>
-          <li><a class="active" href="gallery.html">Gallery</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="banquest.php">Banquets</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a class="active" href="#">Gallery</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
         </ul>
     </nav>
     </div>
@@ -65,8 +65,8 @@
         </nav>
         <!-- filter Images -->
         <div class="gallery">
-          <div class="image" data-name="Rooms"><span><img src="images/room/1.png" alt=""></span></div>
-          <div class="image" data-name="Rooms"><span><img src="images/room/2.png" alt=""></span></div>
+          <div class="image" data-name="Rooms"><span><img src="images/room/1.jpg" alt=""></span></div>
+          <div class="image" data-name="Rooms"><span><img src="images/room/2.jpg" alt=""></span></div>
           
           <div class="image" data-name="Halls"><span><img src="images/banquet/1 (1).jpg" alt=""></span></div>
           <div class="image" data-name="Halls"><span><img src="images/banquet/1 (10).jpg" alt=""></span></div>
@@ -165,11 +165,11 @@
                 <div class="footer-col">
                     <h4>Links</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="banquest.html">Banquets</a></li>
-                        <li><a href="room.html">Rooms</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="banquest.php">Banquets</a></li>
+                        <li><a href="room.php">Rooms</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="contactus.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

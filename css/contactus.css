@@ -301,3 +301,26 @@ textarea:valid~label{
         
     }
 }
+
+
+.thank-u{
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.thank-u h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+
+.alert-success{
+    background-color: #80d353;
+  }
+  
+  .alert-danger{
+    background-color: #d4473d;
+  }
