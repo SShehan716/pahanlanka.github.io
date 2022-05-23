@@ -1,121 +1,121 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 .navigator nav {
-    position: fixed;
-    display: flex;
-    top: 0;
-    height: 80px;
-    width: 100%;
-    background: #996F22;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 20px;
-    flex-wrap: wrap;
-    z-index: 900;
+  position: fixed;
+  display: flex;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background: #996f22;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 20px;
+  flex-wrap: wrap;
+  z-index: 900;
 }
 
-.navigator img{
-    height: 80px;
-    width: 136px;
+.navigator img {
+  height: 80px;
+  width: 136px;
 }
 
 .navigator nav .logo {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .navigator nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-bottom: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0rem;
 }
 
 .navigator nav ul li {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .navigator nav ul li a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 .navigator nav ul li a.active,
 .navigator nav ul li a:hover {
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
 }
 
 .navigator nav .menu-btn i {
-    color: #fff;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
 }
 
 input[type="checkbox"] {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 1000px) {
-    .navigator nav {
-        padding: 0px 40px 0 10px;
-    }
+  .navigator nav {
+    padding: 0px 40px 0 10px;
+  }
 }
 
 @media (max-width: 950px) {
-    .navigator nav .menu-btn i {
-        display: block;
-    }
+  .navigator nav .menu-btn i {
+    display: block;
+  }
 
-    #click:checked~.menu-btn i:before {
-        content: "\f00d";
-    }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
 
-    .navigator nav ul {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        background: #A8913D;
-        height: 100vh;
-        width: 100%;
-        text-align: center;
-        display: block;
-        transition: all 0.3s ease;
-        z-index: 500;
-    }
+  .navigator nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #a8913d;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 500;
+  }
 
-    #click:checked~ul {
-        left: 0;
-    }
+  #click:checked ~ ul {
+    left: 0;
+  }
 
-    .navigator nav ul li {
-        width: 100%;
-        margin: 40px 0;
-    }
+  .navigator nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
 
-    .navigator nav ul li a {
-        width: 100%;
-        margin-left: -100%;
-        display: block;
-        font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
+  .navigator nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
 
-    #click:checked~ul li a {
-        margin-left: 0px;
-    }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
 
-    .navigator nav ul li a.active,
-    .navigator nav ul li a:hover {
-        background: none;
-        color: #000000;
-    }
+  .navigator nav ul li a.active,
+  .navigator nav ul li a:hover {
+    background: none;
+    color: #000000;
+  }
 }

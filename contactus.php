@@ -22,8 +22,7 @@
 </head>
 
 <body>
-  <div id="preloader"
-    style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
+  <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
     <div class="image"> <img src="images/PAHAN LANKA logo.png" alt=""> </div>
     <div>
       <ul class="pre-loader">
@@ -63,9 +62,7 @@
       </nav>
     </div>
 
-    <div
-      style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/contactus\ cover.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;"
-      class="contact-bg">
+    <div style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/contactus\ cover.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;" class="contact-bg">
       <h3>Get in Touch with Us</h3>
       <h2>contact us</h2>
       <div class="line">
@@ -113,24 +110,12 @@
     <div class="divider"></div>
   </div>
 
-  <section class="contactSection"
-    style="background-image: url(images/conactus\ background.png); background-size: 100%; background-attachment: fixed;">
+  <section class="contactSection" style="background-image: url(images/conactus\ background.png); background-size: 100%; background-attachment: fixed;">
     <div class="contact-body">
 
 
       <div class="contact-form">
-        <!--       <form>
-        <div>
-          <input type = "text" class = "form-control" placeholder="First Name">
-          <input type = "text" class = "form-control" placeholder="Last Name">
-        </div>
-        <div>
-          <input type = "email" class = "form-control" placeholder="E-mail">
-          <input type = "text" class = "form-control" placeholder="Phone">
-        </div>
-        <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
-        <input type = "submit" class = "send-btn" value = "send message">
-      </form> -->
+
 
         <form method="POST" name="c-form" id="c-form">
           <h3>Drop Us A Message</h3>
@@ -174,55 +159,51 @@
         </form>
 
         <?php
-      if(isset($_POST["cus"])){
+        if (isset($_POST["cus"])) {
 
-//get data from form  
-$first = $_POST['first'];
-$last = $_POST['last'];
-$email = $_POST['email'];
-$number = $_POST['number'];
-$msg = $_POST['msg'];
+          //get data from form  
+          $first = $_POST['first'];
+          $last = $_POST['last'];
+          $email = $_POST['email'];
+          $number = $_POST['number'];
+          $msg = $_POST['msg'];
 
-$to = "contactus@pahanlanka.com";
-$subject = "Mail From website";
-$txt ="First Name = ". $first . "\r\nLast Name = ". $last . "\r\nE-mail = " . $email . "\r\nMobile Number =" . $number."\r\nMessage =" . $msg;
-$headers = "From: noreply@pahanlanka.com";
-if($email!=NULL){
-  $send = mail($to,$subject,$txt,$headers);
-  $count=mysqli_num_rows($send);
-  if ($count>0)
-  {
-      ?>
-        <script type="text/javascript">
-          document.getElementById("preloader").style.display = "none";
-          document.getElementById("form-container").style.display = "block";
-          document.getElementById("success").style.display = "none";
-          document.getElementById("error").style.display = "block";
-        </script>
+          $to = "contactus@pahanlanka.com";
+          $subject = "Mail From website";
+          $txt = "First Name = " . $first . "\r\nLast Name = " . $last . "\r\nE-mail = " . $email . "\r\nMobile Number =" . $number . "\r\nMessage =" . $msg;
+          $headers = "From: noreply@pahanlanka.com";
+          if ($email != NULL) {
+            $send = mail($to, $subject, $txt, $headers);
+            $count = mysqli_num_rows($send);
+            if ($count > 0) {
+        ?>
+              <script type="text/javascript">
+                document.getElementById("preloader").style.display = "none";
+                document.getElementById("form-container").style.display = "block";
+                document.getElementById("success").style.display = "none";
+                document.getElementById("error").style.display = "block";
+              </script>
+            <?php
+            } else {
+            ?>
+              <script type="text/javascript">
+                document.getElementById("preloader").style.display = "none";
+                document.getElementById("form-container").style.display = "block";
+                document.getElementById("error").style.display = "none";
+                document.getElementById("success").style.display = "block";
+                setTimeout(function() {
+                  window.location.href = "room.php";
+                }, 3000);
+              </script>
         <?php
-  }else{
-    ?>
-        <script type="text/javascript">
-          document.getElementById("preloader").style.display = "none";
-          document.getElementById("form-container").style.display = "block";
-          document.getElementById("error").style.display = "none";
-          document.getElementById("success").style.display = "block";
-          setTimeout(function () {
-            window.location.href = "room.php";
-          }, 3000);
-        </script>
-        <?php
-}
-}
-}
-?>
+            }
+          }
+        }
+        ?>
 
         <div class="map">
 
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.139820249006!2d79.9714226145572!3d6.62955029520604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae236370d96bc1d%3A0x9313a813e1bba69c!2sPahan%20Lanka%20Hotel!5e0!3m2!1sen!2slk!4v1652475592043!5m2!1sen!2slk"
-            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.139820249006!2d79.9714226145572!3d6.62955029520604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae236370d96bc1d%3A0x9313a813e1bba69c!2sPahan%20Lanka%20Hotel!5e0!3m2!1sen!2slk!4v1652475592043!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
     </div>

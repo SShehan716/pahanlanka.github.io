@@ -4,8 +4,7 @@
 <head>
   <title>Pahan Lanka</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -13,19 +12,19 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
 
 </head>
 
 <body>
-  <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">    <div class="image">    
-      <img src="images/PAHAN LANKA logo.png" alt="">    </div>
+  <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
+    <div class="image">
+      <img src="images/PAHAN LANKA logo.png" alt="">
+    </div>
     <div>
       <ul class="pre-loader">
         <li>L</li>
@@ -39,42 +38,42 @@
     </div>
 
   </div>
-        <!-- header -->
-        <header>
-          <div class="navigator">
-            <nav>
-              <div class="logo">
-                <a href="index.php">
-                  <img class="logo" src="images/PAHAN LANKA logo.png" alt="">
-                </a>
-              </div>
-              <input type="checkbox" id="click">
-              <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
-              </label>
-              <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="banquest.php">Banquets</a></li>
-                <li><a href="room.php">Rooms</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="contactus.php">Contact Us</a></li>
-              </ul>
-            </nav>
-          </div>
-        
-          <section class="home" id="home" style="background: linear-gradient(rgba(253, 251, 251, 0.136), #aa79055d),url(images/cover.jpg)
+  <!-- header -->
+  <header>
+    <div class="navigator">
+      <nav>
+        <div class="logo">
+          <a href="index.php">
+            <img class="logo" src="images/PAHAN LANKA logo.png" alt="">
+          </a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="banquest.php">Banquets</a></li>
+          <li><a href="room.php">Rooms</a></li>
+          <li><a href="gallery.php">Gallery</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="home" id="home" style="background: linear-gradient(rgba(253, 251, 251, 0.136), #aa79055d),url(images/cover.jpg)
           ; background-size: cover;   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 ">
-            <div class="containerH">
-              <h1>Welcome</h1>
-              <p>to</p>
-              <h1>Pahan Lanka</h1>
-            </div>
-          </section>
-        </header>
-                <!-- header -->
+      <div class="containerH">
+        <h1>Welcome</h1>
+        <p>to</p>
+        <h1>Pahan Lanka</h1>
+      </div>
+    </section>
+  </header>
+  <!-- header -->
 
 
 
@@ -93,7 +92,7 @@
           </h3>
           <p>We are at Pahan lanka hotel - a perfect place at Kalutara for those who like calming place with unforgettable nature and history.We have A/C, Non - A/C , Family, de lux rooms reach being elegant yet cozy and relaxing.
           </p>
-          <p> Go beyond a full service destination wedding , make your wedding celebration extraordinary! In collaboration  with some of the finest wedding planners in Kalutara. We offer you impeccable wedding services and superb catering, handling with care every single detail of your special celebration. Everything you can imagine about your special wedding day becomes real.
+          <p> Go beyond a full service destination wedding , make your wedding celebration extraordinary! In collaboration with some of the finest wedding planners in Kalutara. We offer you impeccable wedding services and superb catering, handling with care every single detail of your special celebration. Everything you can imagine about your special wedding day becomes real.
           </p>
         </div>
         <div class="right">
@@ -115,7 +114,7 @@
         <h2>Live for the movements</h2>
       </div>
 
-      <div class="content grid mtop" >
+      <div class="content grid mtop">
         <a href="banquest.php">
           <div class="box">
             <i class="far fa-solid fa-rings-wedding"></i>
@@ -137,7 +136,7 @@
 
         <a href="room.php">
           <div class="box">
-            <i class="far fa-solid fa-bed"></i>          
+            <i class="far fa-solid fa-bed"></i>
             <h3>ROOMS</h3>
             <p>Choose your comfort room right now.</p>
             <span class='far fa-long-arrow-alt-right'></span>
@@ -201,11 +200,19 @@
         <h2>Are you coming on this week?<br><span>This Week Weather Forecast</span></h2>
       </div>
 
-      <div id="time" class="flex1 mtop"> 
-        <a class="weatherwidget-io" href="https://forecast7.com/en/6d6079d95/keselwatta/" data-label_1="KALUTARA NORTH" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-basecolor="rgba(202, 167, 1, 0.58)" data-highcolor="#000000" data-lowcolor="#c3dafc" >KALUTARA NORTH WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+      <div id="time" class="flex1 mtop">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/6d6079d95/keselwatta/" data-label_1="KALUTARA NORTH" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-basecolor="rgba(202, 167, 1, 0.58)" data-highcolor="#000000" data-lowcolor="#c3dafc">KALUTARA NORTH WEATHER</a>
+        <script>
+          ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = 'https://weatherwidget.io/js/widget.min.js';
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, 'script', 'weatherwidget-io-js');
+        </script>
       </div>
     </div>
   </section>
@@ -251,7 +258,7 @@
             Romantic atmosphere</h3>
           <p>Tasty foods for reasonable prices..
             very comfortable room & good service..
-            Nice small location with pool 
+            Nice small location with pool
             highly recommended</p>
           <div class="admin flex">
             <div class="img">
@@ -411,108 +418,40 @@
     })
   </script>
 
-
-<section class="blog top" id="blog">
-    <!-- <div class="container">
-      <div class="heading">
-        <h5>OUR BLOG</h5>
-        <h3>News & articles updates</h3>
-      </div>
-
-      <div class="content grid mtop">
-        <div class="box">
-          <div class="img">
-            <img src="images/b1.jpg" alt="">
-            <span>HOTEL</span>
-          </div>
-          <div class="text">
-            <div class="flex">
-              <i class="far fa-user"> <label>Admin</label> </i>
-              <i class="far fa-comments"> <label>Comment</label> </i>
-            </div>
-            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
-            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
-            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img">
-            <img src="images/b2.jpg" alt="">
-            <span>HOTEL</span>
-          </div>
-          <div class="text">
-            <div class="flex">
-              <i class="far fa-user"> <label>Admin</label> </i>
-              <i class="far fa-comments"> <label>Comment</label> </i>
-            </div>
-            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
-            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
-            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img">
-            <img src="images/b3.jpg" alt="">
-            <span>HOTEL</span>
-          </div>
-          <div class="text">
-            <div class="flex">
-              <i class="far fa-user"> <label>Admin</label> </i>
-              <i class="far fa-comments"> <label>Comment</label> </i>
-            </div>
-            <h3>Celebrating Decade Years Of Hotel In 2020</h3>
-            <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
-            <a href="#">Read More <i class='far fa-long-arrow-alt-right'></i> </a>
-          </div>
-        </div>
-      </div>
-    </div>-->
-  </section>
-
-
-  <!--<section class="map top">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d85.32395955!3d27.69383745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1638187678048!5m2!1sen!2snp"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </section>-->
-
   <footer class="footer">
     <div class="container">
-        <div class="row">
-            <div class="footer-col">
-                <h4>About us</h4>
-                <p>We, Pahan Lanka Hotel, Filled with hospitality, warmth of the sunny climate and the cool of the sea breeze provide you a very unique experience to your money making your holiday a dreamlike.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Links</h4>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="banquest.php">Banquets</a></li>
-                    <li><a href="room.php">Rooms</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="contactus.php">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contact Info</h4>
-                <ul>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Follow us</h4>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </div>
-            
-            </div>
+      <div class="row">
+        <div class="footer-col">
+          <h4>About us</h4>
+          <p>We, Pahan Lanka Hotel, Filled with hospitality, warmth of the sunny climate and the cool of the sea breeze provide you a very unique experience to your money making your holiday a dreamlike.</p>
         </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="banquest.php">Banquets</a></li>
+            <li><a href="room.php">Rooms</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </footer>
-  
+
   <script src="js/preloader.js"></script>
 
 </body>

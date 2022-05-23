@@ -19,20 +19,20 @@
 
 <body>
     <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
-        <div class="image">    <img src="images/PAHAN LANKA logo.png" alt="">    </div>
+        <div class="image"> <img src="images/PAHAN LANKA logo.png" alt=""> </div>
         <div>
-          <ul class="pre-loader">
-            <li>L</li>
-            <li>O</li>
-            <li>A</li>
-            <li>D</li>
-            <li>I</li>
-            <li>N</li>
-            <li>G</li>
-          </ul>
+            <ul class="pre-loader">
+                <li>L</li>
+                <li>O</li>
+                <li>A</li>
+                <li>D</li>
+                <li>I</li>
+                <li>N</li>
+                <li>G</li>
+            </ul>
         </div>
-    
-      </div>
+
+    </div>
 
     <!-- header -->
     <header>
@@ -42,8 +42,8 @@
                 <div class="logo">
                     <a href="index.php">
                         <img class="logo" src="images/PAHAN LANKA logo.png" alt="">
-                      </a>
-                                    </div>
+                    </a>
+                </div>
                 <input type="checkbox" id="click">
                 <label for="click" class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -58,8 +58,7 @@
             </nav>
         </div>
 
-        <div style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/banquet/10.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed;"
-            class="contact-bg">
+        <div style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/banquet/10.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed;" class="contact-bg">
             <h3>Celebrate Your Event With Us</h3>
             <h2>Banquets Halls</h2>
             <div class="line">
@@ -239,8 +238,7 @@
     </section>
 
 
-    <section class="customers" id="customers"
-        style="background-image: url(images/aera.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+    <section class="customers" id="customers" style="background-image: url(images/aera.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
         <div class="sec-width">
             <div class="title">
                 <h2>customers</h2>
@@ -273,7 +271,7 @@
                     <h3>Helpful concierge · Good room service · Romantic atmosphere</h3>
                     <p>Tasty foods for reasonable prices..
                         very comfortable room & good service..
-                        Nice small location with pool 
+                        Nice small location with pool
                         highly recommended</p>
                     <img src="images/customers/Oshin Ganegoda.jpg" alt="customer image">
                     <span>Oshin Ganegoda</span>
@@ -347,11 +345,11 @@
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </div>
-                
+
                 </div>
             </div>
         </div>
-      </footer>
+    </footer>
 
     <!-- end of footer -->
 

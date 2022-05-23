@@ -23,8 +23,7 @@
 </head>
 
 <body>
-  <div id="preloader"
-    style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
+  <div id="preloader" style="background:rgb(252, 252, 252) url(images/conactus\ background.png); background-repeat:no-repeat; background-size: cover; background-attachment: fixed;">
     <div class="image"> <img src="images/PAHAN LANKA logo.png" alt=""> </div>
     <div>
       <ul class="pre-loader">
@@ -64,9 +63,7 @@
       </nav>
     </div>
 
-    <div
-      style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/room/2.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;"
-      class="contact-bg">
+    <div style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url(images/room/2.jpg);overflow: visible; background-position: 50% 100%; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;" class="contact-bg">
       <h3>Choose Your Comfort Room Right Now</h3>
       <h2>Rooms</h2>
       <div class="line">
@@ -112,8 +109,7 @@
 
   <section>
     <!-- single room -->
-    <article class="room"
-      style="background-image: url(images/conactus\ background.png) ; background-attachment: fixed; background-color: bisque;">
+    <article class="room" style="background-image: url(images/conactus\ background.png) ; background-attachment: fixed; background-color: bisque;">
       <div class="room-image">
         <div class="card-wrapper">
           <div class="card">
@@ -122,33 +118,8 @@
               <div class="img-display">
                 <div class="img-showcase1">
                   <img src="images/room/1.jpg" alt="">
-                  <!--<img src = "images/hall.jpg" alt = "">
-                          <img src = "images/swimming pool.jpg" alt = "">
-                          <img src = "images/entrance.jpg" alt = "">-->
                 </div>
               </div>
-              <!--<div class = "img-select1">
-                        <div class = "img-item">
-                          <a href = "#" data-id = "1">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "2">
-                            <img src ="images/hall.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "3">
-                            <img src = "images/swimming pool.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "4">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                      </div>-->
             </div>
 
           </div>
@@ -199,33 +170,8 @@
               <div class="img-display">
                 <div class="img-showcase2">
                   <img src="images/room/1.jpg" alt="">
-                  <!--<img src = "images/hall.jpg" alt = "">
-                            <img src = "images/swimming pool.jpg" alt = "">
-                            <img src = "images/entrance.jpg" alt = "">-->
                 </div>
               </div>
-              <!--<div class = "img-select2">
-                          <div class = "img-item">
-                            <a href = "#" data-id = "1">
-                              <img src = "images/entrance.jpg" alt = "shoe image">
-                            </a>
-                          </div>
-                          <div class = "img-item">
-                            <a href = "#" data-id = "2">
-                              <img src ="images/hall.jpg" alt = "shoe image">
-                            </a>
-                          </div>
-                          <div class = "img-item">
-                            <a href = "#" data-id = "3">
-                              <img src = "images/swimming pool.jpg" alt = "shoe image">
-                            </a>
-                          </div>
-                          <div class = "img-item">
-                            <a href = "#" data-id = "4">
-                              <img src = "images/entrance.jpg" alt = "shoe image">
-                            </a>
-                          </div>
-                        </div>-->
             </div>
 
           </div>
@@ -263,8 +209,7 @@
       </div>
     </article>
 
-    <article class="room"
-      style="background-image: url(images/conactus\ background.png) ; background-attachment: fixed; background-color: bisque;">
+    <article class="room" style="background-image: url(images/conactus\ background.png) ; background-attachment: fixed; background-color: bisque;">
       <div class="room-image">
         <div class="card-wrapper">
           <div class="card">
@@ -273,33 +218,8 @@
               <div class="img-display">
                 <div class="img-showcase3">
                   <img src="images/room/1.jpg" alt="">
-                  <!--<img src = "images/hall.jpg" alt = "">
-                          <img src = "images/swimming pool.jpg" alt = "">
-                          <img src = "images/entrance.jpg" alt = "">-->
                 </div>
               </div>
-              <!--<div class = "img-select3">
-                        <div class = "img-item">
-                          <a href = "#" data-id = "1">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "2">
-                            <img src ="images/hall.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "3">
-                            <img src = "images/swimming pool.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "4">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                      </div>-->
             </div>
 
           </div>
@@ -350,33 +270,9 @@
                 <div class="img-showcase4
                         ">
                   <img src="images/room/1.jpg" alt="">
-                  <!--<img src = "images/hall.jpg" alt = "">
-                          <img src = "images/swimming pool.jpg" alt = "">
-                          <img src = "images/entrance.jpg" alt = "">-->
+
                 </div>
               </div>
-              <!--<div class = "img-select4">
-                        <div class = "img-item">
-                          <a href = "#" data-id = "1">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "2">
-                            <img src ="images/hall.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "3">
-                            <img src = "images/swimming pool.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                        <div class = "img-item">
-                          <a href = "#" data-id = "4">
-                            <img src = "images/entrance.jpg" alt = "shoe image">
-                          </a>
-                        </div>
-                      </div>-->
             </div>
 
           </div>
@@ -489,49 +385,48 @@
 
 
   <?php
-if(isset($_POST["submit1"])){
-  //get data from form
-$count = 0;  
-$first = $_POST['first'];
-$last = $_POST['last'];
-$email = $_POST['email'];
-$number = $_POST['number'];
-$adate = $_POST['adate'];
-$ddate = $_POST['ddate'];
-$noOfRooms = $_POST['noOfRooms'];
-$to = "contactus@pahanlanka.com";
-$subject = "Mail From website";
-$txt ="First Name = ". $first . "\r\nLast Name = ". $last . "\r\nE-mail = " . $email . "\r\nMobile Number =" . $number."\r\n Arrival-Date =" . $adate."\r\n Departure Date =" .$ddate."\r\n Rooms Count =" . $noOfRooms ;
-$headers = "From: noreply@pahanlanka.com";
-if($email!=NULL){
-    $send = mail($to,$subject,$txt,$headers);
-    $count=mysqli_num_rows($send);
-    if ($count>0)
-    {
-        ?>
-  <script type="text/javascript">
-    document.getElementById("preloader").style.display = "none";
-    document.getElementById("form-container").style.display = "block";
-    document.getElementById("success").style.display = "none";
-    document.getElementById("error").style.display = "block";
-  </script>
-  <?php
-    }else{
+  if (isset($_POST["submit1"])) {
+    //get data from form
+    $count = 0;
+    $first = $_POST['first'];
+    $last = $_POST['last'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $adate = $_POST['adate'];
+    $ddate = $_POST['ddate'];
+    $noOfRooms = $_POST['noOfRooms'];
+    $to = "contactus@pahanlanka.com";
+    $subject = "Mail From website";
+    $txt = "First Name = " . $first . "\r\nLast Name = " . $last . "\r\nE-mail = " . $email . "\r\nMobile Number =" . $number . "\r\n Arrival-Date =" . $adate . "\r\n Departure Date =" . $ddate . "\r\n Rooms Count =" . $noOfRooms;
+    $headers = "From: noreply@pahanlanka.com";
+    if ($email != NULL) {
+      $send = mail($to, $subject, $txt, $headers);
+      $count = mysqli_num_rows($send);
+      if ($count > 0) {
+  ?>
+        <script type="text/javascript">
+          document.getElementById("preloader").style.display = "none";
+          document.getElementById("form-container").style.display = "block";
+          document.getElementById("success").style.display = "none";
+          document.getElementById("error").style.display = "block";
+        </script>
+      <?php
+      } else {
       ?>
-  <script type="text/javascript">
-    document.getElementById("preloader").style.display = "none";
-    document.getElementById("form-container").style.display = "block";
-    document.getElementById("error").style.display = "none";
-    document.getElementById("success").style.display = "block";
-    setTimeout(function () {
-      window.location.href = "room.php";
-    }, 3000);
-  </script>
+        <script type="text/javascript">
+          document.getElementById("preloader").style.display = "none";
+          document.getElementById("form-container").style.display = "block";
+          document.getElementById("error").style.display = "none";
+          document.getElementById("success").style.display = "block";
+          setTimeout(function() {
+            window.location.href = "room.php";
+          }, 3000);
+        </script>
   <?php
+      }
+    }
   }
-}
-}
-?>
+  ?>
 
 
   <footer class="footer">

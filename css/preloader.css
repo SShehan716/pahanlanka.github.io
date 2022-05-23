@@ -1,27 +1,26 @@
-#preloader{
+#preloader {
   position: fixed;
   margin: 0;
   padding: 0;
   top: 0;
   height: 100vh;
-  width:100%;
+  width: 100%;
   font-family: Arial;
   z-index: 3000;
 }
-#preloader img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-max-width: 200px;
+#preloader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
 }
 
-.image{
+.image {
   width: 100%;
   top: 40%;
   position: relative;
   align-items: center;
   justify-content: center;
-
 }
 
 ul.pre-loader {
@@ -43,53 +42,51 @@ ul.pre-loader li {
 }
 
 @keyframes pre-load {
-  
   0% {
     color: #484848;
     text-shadow: none;
   }
-  
+
   20% {
     color: #484848;
     text-shadow: none;
   }
-  
+
   40% {
     color: #fff900;
     text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
   }
-  
+
   60% {
     color: #484848;
     text-shadow: none;
   }
-  
+
   80% {
     color: #484848;
     text-shadow: none;
   }
-  
+
   100% {
     color: #484848;
     text-shadow: none;
   }
-  
 }
 
 ul li:nth-child(1) {
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 ul.pre-loader li:nth-child(2) {
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 ul.pre-loader li:nth-child(3) {
-  animation-delay: .6s;
+  animation-delay: 0.6s;
 }
 
 ul.pre-loader li:nth-child(4) {
-  animation-delay: .8s;
+  animation-delay: 0.8s;
 }
 
 ul.pre-loader li:nth-child(5) {
@@ -105,36 +102,30 @@ ul.pre-loader li:nth-child(7) {
 }
 
 @media screen and (max-width: 1000px) {
-  
   ul.pre-loader li {
     font-size: 50px;
     letter-spacing: 0;
   }
-  #preloader img{
+  #preloader img {
     width: 200px;
   }
-  
 }
 @media screen and (max-width: 525px) {
-  
   ul.pre-loader li {
     font-size: 40px;
     letter-spacing: 0;
   }
-  #preloader img{
+  #preloader img {
     width: 150px;
   }
-  
 }
 
 @media screen and (max-width: 425px) {
-  
   ul.pre-loader li {
     font-size: 30px;
     letter-spacing: 0;
   }
-  #preloader img{
+  #preloader img {
     width: 100px;
   }
-  
 }
